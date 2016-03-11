@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src='jquery.js'></script>
+	<script type="text/javascript" src='plugin/adexeditor.js'></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script type="text/javascript" src='jscolor.js'></script>
+</head>
+<body>
+
+<textarea id='adexeditor'><b>highlight</b></textarea>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#adexeditor').adexeditor({
+			uploadpath: 'upload.php'
+		});
+	});
+</script>
+</body>
+</html>
